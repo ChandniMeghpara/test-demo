@@ -12,7 +12,8 @@ public class SpringbootDemoApp {
 	
     @GetMapping("/hello")
     public String hello() {
-    	return "Hello HI HOW R U?????????";
+    	return "Hello HI HOW R U?????????"
+    			+ "WHAT IS GOING ON????";
     }
 
     public static void main(String[] args) {
