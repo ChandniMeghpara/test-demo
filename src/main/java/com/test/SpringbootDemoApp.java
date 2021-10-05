@@ -12,7 +12,7 @@ public class SpringbootDemoApp {
 	
     @GetMapping("/hello")
     public String hello() {
-    	return "Hello";
+    	return "Hello HI HOW R U???";
     }
 
     public static void main(String[] args) {
