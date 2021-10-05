@@ -18,7 +18,7 @@ public class SpringbootDemoApp {
     @GetMapping("/test")
     public String test() {
     	return "Hello HI HOW R U?????????"
-    			+ "test1123";
+    			+ "sfdfdf";
     }
     public static void main(String[] args) {
         SpringApplication.run(SpringbootDemoApp.class, args);
