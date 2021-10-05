@@ -15,7 +15,11 @@ public class SpringbootDemoApp {
     	return "Hello HI HOW R U?????????"
     			+ "chandni";
     }
-
+    @GetMapping("/test")
+    public String test() {
+    	return "Hello HI HOW R U?????????"
+    			+ "test";
+    }
     public static void main(String[] args) {
         SpringApplication.run(SpringbootDemoApp.class, args);
     }
